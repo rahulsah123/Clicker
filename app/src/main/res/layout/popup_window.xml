@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Enter Your Name"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/sececond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText"
+        android:hint="For how many seconds"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sececond"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingTop="20dp"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+</RelativeLayout>
